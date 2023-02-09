@@ -13,8 +13,8 @@ body {
   top: 50%;
   right: 0;
   left: 0;
-  width: 430px;
-  height: 100px;
+  width: 400px;
+  height: 90px;
   margin: -4px auto;
 }
 
@@ -216,17 +216,7 @@ body {
 
 #album-art.active img.active {
   z-index: 1;
-  -webkit-animation: rotateAlbumArt 3s linear 0s infinite forwards;
-          animation: rotateAlbumArt 3s linear 0s infinite forwards;
-}
-
-@-webkit-keyframes rotateAlbumArt {
-  0% {
-    transform: rotateZ(0);
-  }
-  100% {
-    transform: rotateZ(360deg);
-  }
+  animation: rotateAlbumArt 3s linear 0s infinite forwards;
 }
 
 @keyframes rotateAlbumArt {
@@ -277,7 +267,7 @@ body {
 }
 
 #player-controls {
-  width: 250px;
+  width: 220px;
   height: 100%;
   margin: 0 5px 0 141px;
   float: right;
@@ -291,7 +281,7 @@ body {
 }
 
 .button {
-  width: 26px;
+  width: 24px;
   height: 26px;
   padding: 25px;
   background-color: #fff;
