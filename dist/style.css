@@ -13,7 +13,7 @@ body {
   top: 50%;
   right: 0;
   left: 0;
-  width: 400px;
+  width: 390px;
   height: 90px;
   margin: -4px auto;
 }
@@ -281,7 +281,7 @@ body {
 }
 
 .button {
-  width: 24px;
+  width: 22px;
   height: 26px;
   padding: 25px;
   background-color: #fff;
